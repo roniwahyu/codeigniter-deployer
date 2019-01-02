@@ -1,7 +1,7 @@
 {
-    "name": "kenjis/codeigniter-deployer",
+    "name": "roniwahyu/codeigniter-deployer",
     "type": "project",
-    "description": "A Deployment Tool for CodeIgniter 3.0",
+    "description": "A Deployment Tool for CodeIgniter 3.0 by Kenji Suzuki for my Codeigniter VueJS Starter",
     "keywords": [
         "deploy",
         "deployment",
@@ -12,6 +12,9 @@
         {
             "name": "Kenji Suzuki",
             "homepage": "https://github.com/kenjis/codeigniter-deployer"
+        },{
+            "name": "Syahroni Wahyu Iriananda",
+            "homepage": "https://github.com/roniwahyu/codeigniter-deployer"
         }
     ],
     "require": {

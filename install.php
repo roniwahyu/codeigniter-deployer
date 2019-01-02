@@ -1,11 +1,12 @@
 <?php
 /**
- * Part of CodeIgniter Deployer
+ * Part of CodeIgniter Deployer by Kenji Suzuki
+ * for my Codeigniter VueJS Starter
  *
- * @author     Kenji Suzuki <https://github.com/kenjis>
+ * @author     Syahroni Wahyu Iriananda <https://github.com/roniwahyu>
  * @license    MIT License
- * @copyright  2015 Kenji Suzuki
- * @link       https://github.com/kenjis/codeigniter-deployer
+ * @copyright  2019 Syahroni Wahyu Iriananda
+ * @link       https://github.com/roniwahyu/codeigniter-deployer
  */
 
 $installer = new Installer();
@@ -15,7 +16,7 @@ class Installer
 {
     public static function install()
     {
-        self::recursiveCopy('vendor/kenjis/codeigniter-deployer/deploy', 'deploy');
+        self::recursiveCopy('vendor/roniwahyu/codeigniter-deployer/deploy', 'deploy');
     }
 
     private static function copy($src, $dst)
